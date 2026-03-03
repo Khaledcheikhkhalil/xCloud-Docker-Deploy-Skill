@@ -1,19 +1,17 @@
 ---
 name: xcloud-docker-deploy
-description: "Adapt any docker-compose.yml to deploy on xCloud. Handles 4 common blockers: (1) build-from-source apps — generates GitHub Actions to build/push to GHCR; (2) proxy conflicts (Caddy/Traefik/nginx-proxy) — removes them, adds nginx-router with single port; (3) multi-port apps — routes all services through nginx-router; (4) external config files — embeds inline. Use when a user wants to deploy any Docker app on xCloud and has an incompatible docker-compose.yml, or asks 'make this work on xCloud'."
-version: 1.0.0
-homepage: https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill
-source: https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill
-author: Asif2BD
-tags: [docker, xcloud, deployment, devops, docker-compose]
-platforms: [openClaw, claude-code, claude-ai, cursor, windsurf, any]
-security:
-  verified: true
-  auditor: Oracle (Matrix Zion)
-  audit_date: 2026-03-03
-  scripts_no_network: true
-  scripts_no_code_execution: true
-  references_describe_external_services: true
+description: "Adapt any docker-compose.yml to deploy on xCloud. Handles 4 common blockers: (1) build-from-source apps — generates GitHub Actions to build/push to GHCR; (2) proxy conflicts (Caddy/Traefik/nginx-proxy) — removes them, adds nginx-router with single port; (3) multi-port apps — routes all services through nginx-router; (4) external config files — embeds inline. Use when a user wants to deploy any Docker app on xCloud and has an incompatible docker-compose.yml, or asks make this work on xCloud."
+license: Apache-2.0
+metadata:
+  version: 1.0.0
+  author: Asif2BD
+  homepage: https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill
+  source: https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill
+  tags: docker, xcloud, deployment, devops, docker-compose
+  platforms: openClaw, claude-code, claude-ai, cursor, windsurf, any
+  security_verified: true
+  no_network_calls: true
+  no_executables: true
 ---
 
 # xCloud Docker Deploy
